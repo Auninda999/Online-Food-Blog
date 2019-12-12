@@ -25,4 +25,9 @@ class DashboardController extends Controller
             return redirect('/adduser');
         }
     }
+
+    public function registered(){
+        $users = User::all();
+        return view('admin.register')->with('users', $users);
+    }
 }

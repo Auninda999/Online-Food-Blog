@@ -9,7 +9,7 @@
     <div class="col-md-12">
         <div class="card ">
         <div class="card-header">
-            <h4 class="card-title"> Simple Table</h4>
+            <h4 class="card-title"> Admin Dashboard</h4>
         </div>
         <div class="card-body">
             <div class="table-responsive">
@@ -25,7 +25,7 @@
                       <td>Dakota Rice</td>
                       <td>Dakota Rice</td>
                       <td>Dakota Rice</td>
-                      <td >Dakota Rice</td>
+                      <td>Dakota Rice</td>
                     </tr>
                 </tbody>
                 </table>

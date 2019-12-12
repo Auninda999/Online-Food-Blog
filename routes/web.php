@@ -16,3 +16,7 @@ Route::get('/', function () {
 });
 
 Auth::routes();
+
+Route::get('/dashboard', function () {
+    return view('admin.dashboard');
+});

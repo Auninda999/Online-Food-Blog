@@ -20,3 +20,6 @@ Auth::routes();
 Route::get('/dashboard', function () {
     return view('admin.dashboard');
 });
+
+Route::get('/adduser', 'Admin\DashboardController@adduser');
+Route::put('/insertuser', 'Admin\DashboardController@insertuser');
